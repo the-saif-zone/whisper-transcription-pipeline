@@ -30,7 +30,7 @@ This pipeline runs entirely locally using [whisper.cpp](https://github.com/ggerg
 - Delivers named, versioned output files directly to Desktop
 - Logs every job automatically for order tracking
 
-Supports 99 languages. For a full list of supported language codes, see the [OpenAI Whisper GitHub repository](https://github.com/openai/whisper/blob/main/whisper/tokenizer.py).
+Supports over 99 languages. For a full list of supported language codes, see the [OpenAI Whisper GitHub repository](https://github.com/openai/whisper/blob/main/whisper/tokenizer.py).
 
 ---
 
