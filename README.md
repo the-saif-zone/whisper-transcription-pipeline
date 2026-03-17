@@ -1,6 +1,6 @@
 # Whisper Transcription & Translation Pipeline
 
-Automated audio/video transcription and translation pipeline built in Python. Eliminates manual transcription bottlenecks — input goes in, clean transcript comes out. No API costs, no data leaving your machine.
+Automated audio/video transcription and translation pipeline built in Python. Eliminates manual transcription bottlenecks. Input goes in, clean transcript comes out. No API costs, no data leaving your machine.
 
 ---
 
