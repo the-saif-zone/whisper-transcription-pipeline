@@ -12,6 +12,20 @@ Automated audio/video transcription and translation pipeline built in Python. El
 
 ---
 
+## Architechture
+
+Input File
+  ↓
+ffmpeg preprocessing
+  ↓
+whisper.cpp inference
+  ↓
+optional pandoc conversion
+  ↓
+versioned delivery + logging
+
+---
+
 ## The Problem
 
 Manual transcription is slow, expensive, and breaks down entirely when the source language isn't English. Cloud-based transcription APIs charge per minute and require uploading sensitive audio to third-party servers.
