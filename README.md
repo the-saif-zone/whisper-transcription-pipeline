@@ -12,8 +12,9 @@ Automated audio/video transcription and translation pipeline built in Python. El
 
 ---
 
-## Architechture
+## Architecture
 
+```text
 Input File
   ↓
 ffmpeg preprocessing
@@ -23,6 +24,7 @@ whisper.cpp inference
 optional pandoc conversion
   ↓
 versioned delivery + logging
+```
 
 ---
 
