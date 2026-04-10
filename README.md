@@ -82,6 +82,7 @@ Model files are not included — download from the [whisper.cpp releases](https:
 brew install whisper-cpp ffmpeg pandoc
 ```
 
+
 **Download Whisper Models**
 
 Download the required model files from the whisper.cpp releases page, then save them locally in the folder below:
@@ -94,6 +95,7 @@ Download the required model files from the whisper.cpp releases page, then save 
 ```
 
 Model files are not included in this repository due to size.
+
 
 **Required folder structure**
 ```bash
