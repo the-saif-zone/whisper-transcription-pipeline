@@ -84,7 +84,7 @@ brew install whisper-cpp ffmpeg pandoc
 
 **Download Whisper Models**
 
-Download the required model files from the whisper.cpp releases page and place them in:
+Download the required model files from the whisper.cpp releases page, then save them locally in the folder below:
 
 ```text
 ~/whisper_models/
@@ -98,13 +98,6 @@ Model files are not included in this repository due to size.
 **Required folder structure**
 ```bash
 mkdir -p ~/service_root/{inbox,processing,logs} ~/whisper_models
-```
-
-**Place model files in:**
-```
-~/whisper_models/ggml-medium.bin
-~/whisper_models/ggml-small.bin
-~/whisper_models/ggml-large-v3.bin
 ```
 
 ---
